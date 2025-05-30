@@ -11,45 +11,31 @@
 <body>
   
 
-  <div class="header">
-    <nav id="navBar">
-      <img src="images/logo-white.png" alt="" class="logo">
-      <ul class="nav-links">
-        <li><a href="#" class="active">Popular Places</a></li>
-        <li><a href="#">Travel Outside</a></li>
-        <li><a href="#">Online packages</a></li>
-        <li><a href="#">Travel Outside</a></li>
-        <li><a href="#">Online packages</a></li>
-      </ul>
-      <a href="#" class="register-btn">Register Now</a>
-      <i class="fas fa-bars" onclick="togglebtn()"></i>
-    </nav>
-    <div class="container">
-      <h1>Find Your Next Stay</h1>
-      <div class="search-box">
-        <form>
-          <div class="location-input">
-            <label>Location</label>
-            <input type="text" placeholder="Where are you going">
-          </div>
-          <div>
-            <label>Check In</label>
-            <input type="text" placeholder="Add Date">
-          </div>
-          <div>
-            <label>Check out</label>
-            <input type="text" placeholder="Add Date">
-          </div>
-          <div>
-            <label>Guest</label>
-            <input type="text" placeholder="Add Guest">
-          </div>
-          <button type="submit"><img src="images/search.png" alt=""></button>
+  <header class="airbnb-header">
+    <div class="header-container">
+      <div class="header-left">
+        <img src="images/logo-white.png" alt="Airbnb Logo" class="airbnb-logo">
+      </div>
+      <div class="header-center">
+        <form class="header-search">
+          <input type="text" placeholder="Anywhere">
+          <span class="divider"></span>
+          <input type="text" placeholder="Any week">
+          <span class="divider"></span>
+          <input type="text" placeholder="Add guests">
+          <button type="submit"><i class="fas fa-search"></i></button>
         </form>
       </div>
+      <div class="header-right">
+        <a href="#">Become a Host</a>
+        <i class="fas fa-globe"></i>
+        <div class="user-menu">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </div>
     </div>
-  </div>
-
+  </header>
 
   <div class="container">
     <h2 class="sub-title">Exclusives</h2>
